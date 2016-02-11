@@ -1,0 +1,1 @@
+sysbench --test=/root/sysbench-mariadb/sysbench/tests/db/oltp.lua --oltp-tables-count=20 --oltp-table-size=50000 --num-threads=160 --oltp-read-only=on --oltp-point-selects=1000 --oltp-distinct-ranges=0 --oltp-simple-ranges=0 --oltp-sum-ranges=0 --oltp-order-ranges=0 --max-time=100 --max-requests=0 --mysql-password=mysql --mysql-user=root --mysql-db=sbtest run
