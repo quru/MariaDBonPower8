@@ -1,0 +1,1 @@
+sysbench --test=/root/sysbench-mariadb/sysbench/tests/db/parallel_prepare.lua --oltp_tables_count=32 --num-threads=32 --oltp-table-size=1000000 --mysql-user=root --mysql-password=mysql run
